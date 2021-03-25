@@ -13,6 +13,7 @@
 		04D606C7260C3FF400765CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D606C5260C3FF400765CBA /* Main.storyboard */; };
 		04D606C9260C3FF800765CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D606C8260C3FF800765CBA /* Assets.xcassets */; };
 		04D606CC260C3FF800765CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D606CA260C3FF800765CBA /* LaunchScreen.storyboard */; };
+		04D606DD260C46D700765CBA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D606DC260C46D600765CBA /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04D606C8260C3FF800765CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D606CB260C3FF800765CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D606CD260C3FF800765CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D606DC260C46D600765CBA /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShadowView.swift; path = ../../../../Downloads/ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				04D606BF260C3FF400765CBA /* AppDelegate.swift */,
 				04D606C1260C3FF400765CBA /* SceneDelegate.swift */,
 				04D606C3260C3FF400765CBA /* ViewController.swift */,
+				04D606DC260C46D600765CBA /* ShadowView.swift */,
 				04D606C5260C3FF400765CBA /* Main.storyboard */,
 				04D606C8260C3FF800765CBA /* Assets.xcassets */,
 				04D606CA260C3FF800765CBA /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D606DD260C46D700765CBA /* ShadowView.swift in Sources */,
 				04D606C4260C3FF400765CBA /* ViewController.swift in Sources */,
 				04D606C0260C3FF400765CBA /* AppDelegate.swift in Sources */,
 				04D606C2260C3FF400765CBA /* SceneDelegate.swift in Sources */,

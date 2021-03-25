@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cg9-xb-YFd">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cg9-xb-YFd" customClass="viewShadow" customModule="shadowView" customModuleProvider="target">
                                 <rect key="frame" x="87" y="353" width="240" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quJ-8T-hgX">
@@ -54,6 +54,7 @@
                     <connections>
                         <outlet property="expand" destination="quJ-8T-hgX" id="Zdu-43-dIs"/>
                         <outlet property="viewHeight" destination="P2D-bl-rJ0" id="X1h-4Z-7cf"/>
+                        <outlet property="vieww" destination="Cg9-xb-YFd" id="KOF-I5-yfV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
